@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nightmood.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/aboat-sec.css">
+    <link rel="stylesheet" href="css/flip-skills.css">
+    <link rel="stylesheet" href="css/portfilio-sec.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="home">
+        <img src="images/logo.png" alt="logo">
+    </header>
+    <nav>
+        <a href="#home">home </a>
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#port">portfolio</a>
+        <a href="#contact">contact</a>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+    </nav>
+    <article class="head">
+        <h1 class="z">ahmed abd elhamed elazab</h1>
+        <div>
+            <span class="span-one span"></span>
+            <span class="span-two span"></span>
+            <img src="images/image.png" class="z" alt="photo">
+        </div>
+        <section class="text-align z">
+            <h2>front-end developer</h2>
+            <button type="button" class="btn-cv"><a href="" target="_blank" rel="noopener noreferrer" class="unset-all"
+                    download>download CV</a></button>
+            <section class="contact-flex">
+                <button class="btn-contact unset-all" id="in">
+                    <span class="svg-container z">
+                        <svg viewBox="0 0 448 512" height="1.6em" fill="white">
+                            <path
+                                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="svg-back in"></span>
+                </button>
+                <button class="btn-contact unset-all" id="git">
+                    <span class="svg-container z">
+                        <svg fill="white" viewBox="0 0 496 512" height="1.6em">
+                            <path
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="svg-back git"></span>
+                </button>
+                <button class="btn-contact unset-all" id="gmail">
+                    <span class="svg-container z">
+                        <svg viewBox="0 0 256 262" fill="white" height="1.6em">
+                            <path
+                                d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"
+                                fill="#4285F4"></path>
+                            <path
+                                d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"
+                                fill="#34A853"></path>
+                            <path
+                                d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782"
+                                fill="#FBBC05"></path>
+                            <path
+                                d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"
+                                fill="#EB4335"></path>
+                        </svg>
+                    </span>
+                    <span class="svg-back google"></span>
+                </button>
+                <button class="btn-contact unset-all" id="whats">
+                    <span class="svg-container z">
+                        <svg viewBox="0 0 448 512" fill="white" height="1.6em">
+                            <path
+                                d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="svg-back whats"></span>
+                </button>
+
+            </section>
+        </section>
+    </article>
+    <article class="about-wave" id="about">
+        <section class="wave-back">
+            <svg viewBox="0 0 1440 320" class="top-wave">
+                <path class="path-0"
+                    d="M 0,400 L 0,100 C 125.00478468899524,120 250.0095693779905,140 336,141 C 421.9904306220095,142 468.96650717703335,123.99999999999999 562,107 C 655.0334928229667,90.00000000000001 794.1244019138755,74 903,78 C 1011.8755980861245,82 1090.5358851674641,106 1175,113 C 1259.4641148325359,120 1349.732057416268,110 1440,100 L 1440,400 L 0,400 Z">
+                </path>
+                <path class="path-1"
+                    d="M 0,400 L 0,233 C 71.34928229665073,252.38755980861245 142.69856459330146,271.7751196172249 234,271 C 325.30143540669854,270.2248803827751 436.555023923445,249.28708133971296 540,241 C 643.444976076555,232.71291866028704 739.0813397129186,237.07655502392345 846,244 C 952.9186602870814,250.92344497607655 1071.1196172248806,260.4066985645933 1172,259 C 1272.8803827751194,257.5933014354067 1356.4401913875597,245.29665071770336 1440,233 L 1440,400 L 0,400 Z">
+                </path>
+            </svg>
+            <svg viewBox="0 0 1440 390" class="bottom-wave">
+                <path class="path-0" transform="rotate(-180 720 200)"
+                    d="M 0,400 L 0,100 C 105.3397129186603,76.48803827751196 210.6794258373206,52.976076555023916 304,55 C 397.3205741626794,57.023923444976084 478.62200956937795,84.58373205741627 566,92 C 653.377990430622,99.41626794258373 746.8325358851677,86.688995215311 833,85 C 919.1674641148323,83.311004784689 998.0478468899521,92.66028708133972 1098,97 C 1197.952153110048,101.33971291866028 1318.976076555024,100.66985645933013 1440,100 L 1440,400 L 0,400 Z">
+                </path>
+                <path class="path-1" transform="rotate(-180 720 200)"
+                    d="M 0,400 L 0,233 C 125.75119617224883,232.52153110047848 251.50239234449765,232.04306220095697 332,246 C 412.49760765550235,259.95693779904303 447.7416267942583,288.3492822966507 542,280 C 636.2583732057417,271.6507177033493 789.5311004784688,226.55980861244018 899,217 C 1008.4688995215312,207.44019138755982 1074.1339712918661,233.41148325358853 1157,242 C 1239.8660287081339,250.58851674641147 1339.933014354067,241.79425837320574 1440,233 L 1440,400 L 0,400 Z">
+                </path>
+            </svg>
+        </section>
+        <section class="about z">
+            <section>
+                <p>Front-End Developer highly poised and dedicated with a strong education in design principles and
+                    programming languages. Offers expertise in HTML5, CSS3, JavaScript, and Vue.JS. proven ability to
+                    quickly learn and apply new technologies and techniques to enhance user experience and enable
+                    website optimization.</p>
+                <h2 class="marg-bot5 color">laguage</h2>
+                <ul class="unmarg-top">
+                    <li class="color">arabic-native</li>
+                    <li class="color">english-advanced level</li>
+                </ul>
+            </section>
+            <section class="info-card z">
+                <img src="images/im.png" class="z" alt="">
+                <div class="info">
+                    <span class="span-info-one span"></span>
+                    <span class="span-info-two span"></span>
+                    <h2>information card</h2>
+                    <p>ahmed abd elhamed elazab</p>
+                    <p class="span-mili info-fly">exempted militry service</p>
+                    <p class="span-addres info-fly">mansoura,egypt</p>
+                    <p class="span-date info-fly">18 septamper 1999</p>
+                </div>
+            </section>
+        </section>
+    </article>
+    <article class="skills z" id="skills">
+        <h2>what i am great at</h2>
+        <section class="cardes">
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>HTML 5</h3>
+                        <img src="images/skills/html-icon.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back html-progress">
+                        <img src="images/skills/html.png" alt="">
+                        <div class="p-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>CSS3 and bootstrap</h3>
+                        <img src="images/skills/css-icon.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back css-progress">
+                        <img src="images/skills/css.png" alt="">
+                        <div class="p-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>java script</h3>
+                        <img src="images/skills/js-icon.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back js-progress">
+                        <img src="images/skills/js.png" alt="">
+                        <div class="p-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>vue.js</h3>
+                        <img src="images/skills/fw-icon.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back vue-progress">
+                        <img src="images/skills/fw.png" alt="">
+                        <div class="p-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>c# OOP</h3>
+                        <img src="images/skills/cs-icon.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back oop-progress">
+                        <img src="images/skills/cs.png" alt="">
+                        <div class="p-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>my SQL</h3>
+                        <img src="images/skills/sql-icon.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back sql-progress">
+                        <img src="images/skills/sql.png" alt="">
+                        <div class="p-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>GIT and github</h3>
+                        <img src="images/skills/git-icon.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back git-progress">
+                        <img src="images/skills/git.png" alt="">
+                        <div class="p-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>python</h3>
+                        <img src="images/skills/python.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back py-progress">
+                        <img src="images/skills/py.png" alt="">
+                        <div class="p-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>project management</h3>
+                        <img src="images/skills/pm-icon.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back manag-progress">
+                        <img src="images/skills/pm.png" alt="">
+                        <div class="p-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>computer architecture</h3>
+                        <img src="images/skills/ca-icon.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back arch-progress">
+                        <img src="images/skills/ca.png" alt="">
+                        <div class="p-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>ECE engineering</h3>
+                        <img src="images/skills/ce-icon.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back comu-progress">
+                        <img src="images/skills/ce.png" alt="">
+                        <div class="p-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flip-card-inner">
+                    <div class="flip-fb">
+                        <h3>basic AI and ML</h3>
+                        <img src="images/skills/ai-icon.png" alt="">
+                        <p>flip</p>
+                    </div>
+                    <div class="flip-fb flip-card-back">
+                        <img src="images/skills/ai.png" alt="">
+                        <p>basic</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <article id="port">
+        <form action="">
+            <input id="edu" type="radio" name="radio" checked>
+            <label for="edu">education</label>
+            <input id="cor" type="radio" name="radio">
+            <label for="cor">courses</label>
+            <input id="exp" type="radio" name="radio">
+            <label for="exp">experience</label>
+            <!-- <input id="proj" type="radio" name="radio">
+            <label for="proj">projects</label> -->
+        </form>
+        <section class="head portfilio-dimention" id="educ-box">
+            <h1 class="z bot-line">education</h1>
+            <div>
+                <span class="span-port-one span"></span>
+                <span class="span-port-two span"></span>
+                <span class="span-port-three span"></span>
+            </div>
+            <div class="z">
+                <span class="sign-after">2017-2022</span>
+                <h2>bachelor of computers and control engineering</h2>
+                <p>Port-Said University</p>
+            </div>
+        </section>
+        <section class="head portfilio-dimention display" id="cours-box">
+            <h1 class="z bot-line">courses</h1>
+            <div>
+                <span class="span-port-one span"></span>
+                <span class="span-port-two span"></span>
+                <span class="span-port-three span"></span>
+            </div>
+            <div class="z">
+                <span class="sign-after">may, 2021</span>
+                <h2>HTML, CSS, JAVASCRIPT for web developer</h2>
+                <p>online course in coursera</p>
+            </div>
+        </section>
+        <section class="head portfilio-dimention display exp" id="exp-box">
+            <h1 class="z bot-line">experiences</h1>
+            <div class="data">
+                <div class="z">
+                    <span class="sign-exp"></span>
+                    <p>Demonstrated expertise in HTML5, CSS3, object-orientated JavaScript and large JavaScript
+                        applications.
+                    </p>
+                    <span class="sign-exp"></span>
+                    <p>Designed and implemented website interface with responsive-design for mobile, desktop and
+                        tablets.</p>
+                    <span class="sign-exp"></span>
+                    <p>Proficient in JavaScript frameworks such as vue Coordinated usability testing and
+                        corrective
+                    </p>
+                    <span class="sign-exp"></span>
+                    <p>efficient in design by bootstrasp as a css framework</p>
+                    <span class="sign-exp"></span>
+                    <p>Researched new programming languages, frameworks and technologies to stay abreast with latest
+                        trend.
+                    </p>
+                </div>
+                <span class="span-port-one span-exp-one span"></span>
+                <span class="span-exp-two span"></span>
+                <span class="span-port-three span"></span>
+            </div>
+        </section>
+    </article>
+    <article id="contact" class="text-align">
+        <h2>way to contact</h2>
+        <p>plesure to contact me from my personal acconts for giving opinion, any edition for project to be fit or some
+            advice</p>
+        <section class="contact-flex footer-contact">
+            <button class="btn-contact unset-all" id="face">
+                <span class="svg-container z">
+                    <svg viewBox="0 0 448 512" height="1.6em" fill="white">
+                        <path
+                            d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z">
+                        </path>
+                    </svg>
+                </span>
+                <span class="svg-back in"></span>
+            </button>
+            <button class="btn-contact unset-all" id="x">
+                <span class="svg-container z">
+                    <svg fill="white" viewBox="0 0 496 512" height="1.6em">
+                        <path
+                            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+                        </path>
+                    </svg>
+                </span>
+                <span class="svg-back git"></span>
+            </button>
+            <button class="btn-contact unset-all" id="whats">
+                <span class="svg-container z">
+                    <svg viewBox="0 0 448 512" fill="white" height="1.6em">
+                        <path
+                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z">
+                        </path>
+                    </svg>
+                </span>
+                <span class="svg-back whats"></span>
+            </button>
+        </section>
+    </article>
+    <hr>
+    <footer class="text-align">
+        <p class="copy">Copyright &copy; 2024 Topping Homestyler (Shanghai) Technology Co., Ltd. All rights
+            reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

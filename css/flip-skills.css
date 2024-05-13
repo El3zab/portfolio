@@ -1,0 +1,364 @@
+.skills {
+  text-align: center;
+}
+
+.cardes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5vw;
+  margin: 5vw;
+}
+
+.card {
+  width: 18vw;
+  height: 30vh;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.card:hover .html-progress {
+  animation: 2s 1 forwards html-progress;
+}
+
+.card:hover .css-progress {
+  animation: 2s 1 forwards css-progress;
+}
+
+.card:hover .js-progress {
+  animation: 2s 1 forwards js-progress;
+}
+
+.card:hover .vue-progress {
+  animation: 2s 1 forwards vue-progress;
+}
+
+.card:hover .oop-progress {
+  animation: 2s 1 forwards oop-progress;
+}
+
+.card:hover .sql-progress {
+  animation: 2s 1 forwards sql-progress;
+}
+
+.card:hover .git-progress {
+  animation: 2s 1 forwards git-progress;
+}
+
+.card:hover .py-progress {
+  animation: 2s 1 forwards py-progress;
+}
+
+.card:hover .manag-progress {
+  animation: 2s 1 forwards manag-progress;
+}
+
+.card:hover .arch-progress {
+  animation: 2s 1 forwards arch-progress;
+}
+
+.card:hover .comu-progress {
+  animation: 2s 1 forwards comu-progress;
+}
+
+
+.flip-fb {
+  background-color: #11212D;
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+}
+
+.flip-fb h3 {
+  margin-top: 5vh;
+  height: 55px;
+}
+
+.flip-fb p {
+  color: #a66765;
+  font-size: 0.5em;
+  margin-top: 3vh;
+
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.p-circle::before {
+  counter-reset: percentage var(--progress-value);
+  content: counter(percentage) '%';
+}
+
+.p-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, #11212D 79%, transparent 80% 100%), conic-gradient(#1abc9c calc(var(--progress-value) * 1%), #bdc3c7 0);
+  margin: 2vw auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+@keyframes html-progress {
+
+  10% {
+    --progress-value: 10;
+  }
+
+  40% {
+    --progress-value: 40;
+  }
+
+  60% {
+    --progress-value: 60;
+  }
+
+  80% {
+    --progress-value: 80;
+  }
+
+  to {
+    --progress-value: 98;
+  }
+}
+
+@keyframes css-progress {
+
+  10% {
+    --progress-value: 10;
+  }
+
+  40% {
+    --progress-value: 40;
+  }
+
+  60% {
+    --progress-value: 60;
+  }
+
+  80% {
+    --progress-value: 80;
+  }
+
+  to {
+    --progress-value: 95;
+  }
+}
+
+@keyframes js-progress {
+
+  10% {
+    --progress-value: 10;
+  }
+
+  40% {
+    --progress-value: 40;
+  }
+
+  60% {
+    --progress-value: 60;
+  }
+
+  80% {
+    --progress-value: 80;
+  }
+
+  to {
+    --progress-value: 93;
+  }
+}
+
+@keyframes vue-progress {
+
+  10% {
+    --progress-value: 10;
+  }
+
+  40% {
+    --progress-value: 40;
+  }
+
+  60% {
+    --progress-value: 60;
+  }
+
+  80% {
+    --progress-value: 80;
+  }
+
+  to {
+    --progress-value: 90;
+  }
+}
+
+@keyframes oop-progress {
+
+  10% {
+    --progress-value: 10;
+  }
+
+  40% {
+    --progress-value: 40;
+  }
+
+  60% {
+    --progress-value: 60;
+  }
+
+  80% {
+    --progress-value: 80;
+  }
+
+  to {
+    --progress-value: 95;
+  }
+}
+
+@keyframes sql-progress {
+
+  10% {
+    --progress-value: 10;
+  }
+
+  40% {
+    --progress-value: 40;
+  }
+
+  60% {
+    --progress-value: 60;
+  }
+
+  80% {
+    --progress-value: 80;
+  }
+
+  to {
+    --progress-value: 88;
+  }
+}
+
+@keyframes git-progress {
+
+  10% {
+    --progress-value: 10;
+  }
+
+  40% {
+    --progress-value: 40;
+  }
+
+  60% {
+    --progress-value: 60;
+  }
+
+  80% {
+    --progress-value: 80;
+  }
+
+  to {
+    --progress-value: 95;
+  }
+}
+
+@keyframes py-progress {
+
+  10% {
+    --progress-value: 10;
+  }
+
+  40% {
+    --progress-value: 40;
+  }
+
+  60% {
+    --progress-value: 60;
+  }
+
+  80% {
+    --progress-value: 80;
+  }
+
+  to {
+    --progress-value: 89;
+  }
+}
+
+@keyframes manag-progress {
+
+  10% {
+    --progress-value: 10;
+  }
+
+  40% {
+    --progress-value: 40;
+  }
+
+  60% {
+    --progress-value: 60;
+  }
+
+  80% {
+    --progress-value: 80;
+  }
+
+  to {
+    --progress-value: 94;
+  }
+}
+
+@keyframes arch-progress {
+
+  10% {
+    --progress-value: 10;
+  }
+
+  40% {
+    --progress-value: 40;
+  }
+
+  60% {
+    --progress-value: 60;
+  }
+
+  80% {
+    --progress-value: 80;
+  }
+
+  to {
+    --progress-value: 85;
+  }
+}
+
+@keyframes comu-progress {
+
+  10% {
+    --progress-value: 10;
+  }
+
+  40% {
+    --progress-value: 40;
+  }
+
+  60% {
+    --progress-value: 60;
+  }
+
+  80% {
+    --progress-value: 80;
+  }
+
+}

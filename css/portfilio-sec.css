@@ -1,0 +1,103 @@
+.display,
+form input {
+    display: none;
+}
+
+form {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0.25rem;
+    width: 43vw;
+    text-align: center;
+    margin: auto;
+}
+
+form label {
+    flex: 1 1 auto;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: .5rem 0;
+    transition: all .15s ease-in-out;
+}
+
+form input:checked+label {
+    background-color: #11212D;
+    font-weight: 600;
+}
+
+.span-port-one {
+    width: 200px;
+    height: 200px;
+    top: 140px;
+    left: 7vw;
+}
+
+.span-exp-one {
+    top: 335px;
+    left: 7vw;
+}
+
+.span-port-two {
+    width: 110px;
+    height: 110px;
+    top: 350px;
+    left: 31vw;
+}
+
+.span-exp-two {
+    width: 150px;
+    height: 150px;
+    top: 560px;
+    left: 38vw;
+}
+
+.span-port-three {
+    width: 250px;
+    height: 250px;
+    top: 75px;
+    left: 45vw;
+}
+
+.portfilio-dimention {
+    width: 65vw;
+    height: 25vw;
+    margin: 0 auto 7vw;
+}
+
+.bot-line {
+    border-bottom: 2px #06a5f7 outset;
+}
+
+.exp {
+    height: fit-content;
+    padding-bottom: 4vw;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5vw;
+}
+
+
+
+.sign-after {
+    width: fit-content;
+    height: fit-content;
+    border-bottom: 0.2vw #06a5f7 outset;
+    color: #06a5f7;
+    position: absolute;
+    left: -11vw;
+    top: 1vw;
+}
+
+.sign-exp {
+    width: 0.7vw;
+    height: 0.7vw;
+    border-radius: 50%;
+    border: 0.2vw #06a5f7 solid;
+    position: relative;
+    display: inline-block;
+    left: -2vw;
+    top: 3vw;
+}
+
+.data p {
+    margin: unset;
+}

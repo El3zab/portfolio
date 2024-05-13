@@ -1,0 +1,116 @@
+* {
+    text-transform: capitalize;
+    font-size: 1.7vw;
+    font-family: 'Cairo', sans-serif;
+    color: aliceblue;
+}
+
+body {
+    background-color: #06141B;
+}
+
+header {
+    display: inline-block;
+    width: 47vw;
+    margin-left: 9vw;
+    margin-top: 5vh;
+}
+
+header img {
+    width: 172px;
+    height: 128px;
+}
+
+nav {
+    font-size: 1vw;
+    display: inline;
+    position: absolute;
+    margin-top: 9vh;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(218, 206, 206);
+    margin-left: 2vw;
+}
+
+a:hover {
+    color: #a66765;
+}
+
+.head {
+    width: fit-content;
+    padding: 2vw 2vw 0 4vw;
+    background-color: #11212D;
+    margin: 0 6vw 2vw;
+    border-radius: 2vw;
+    box-shadow: 5px 7px 7px rgb(13 15 16);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    z-index: 1;
+}
+
+.span {
+    background-color: #4A5C6A;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.span-one {
+    width: 350px;
+    height: 350px;
+    top: 170px;
+    left: 36vw;
+}
+
+.span-two {
+    width: 110px;
+    height: 110px;
+    top: 80px;
+    left: 23vw;
+}
+
+.head h1 {
+    margin: auto;
+    font-size: 2em;
+}
+
+.head section {
+    margin: auto;
+}
+
+.btn-cv {
+    width: fit-content;
+    padding: 1vw;
+    border-radius: 1vw;
+    margin: 2vw;
+    border: unset;
+    background-color: #253745;
+    cursor: pointer;
+}
+
+.z {
+    position: relative;
+    z-index: 1;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.unset-all {
+    all: unset;
+}
+
+.copy {
+    font-size: 0.5em;
+    color: #a66765;
+}
+
+hr {
+    text-align: center;
+    width: 20vw;
+    border-color: #4A5C6A;
+    margin-bottom: 7vw;
+}
